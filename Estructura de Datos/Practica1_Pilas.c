@@ -5,7 +5,6 @@ typedef struct _NODO
 {
     int dato;          /* Este es dato que se encuentra en mi nodo*/
     struct _NODO *sig; /*Este es el apuntador con el que estaremos uniendo nodos */
-
 } nodo;
 
 /* Esta funcion Reservar memoria para ese nodo  1   int  =5555555555555 */
@@ -54,7 +53,6 @@ void mostrar(nodo *cima)
         while (cima != NULL)
         {
             printf("ELEMNTO [%d] : %d \n", i, cima->dato);
-
             cima = cima->sig;
             i++;
         }
@@ -87,6 +85,7 @@ int main(void)
 
             break;
         case 2:
+
             break;
         case 3:
             system("cls");
